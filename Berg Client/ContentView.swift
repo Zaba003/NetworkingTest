@@ -11,13 +11,14 @@ struct ContentView: View {
     
     @StateObject private var viewModel = ContentViewModel()
     @StateObject private var resourceViewModel = ResourceViewModel()
+   // @StateObject private var stockViewModel = StockViewModel()
     
     var body: some View {
         ScrollView {
-            Text(resourceViewModel.resource.name)
-                .font(.title)
-            Text(resourceViewModel.resource.article)
-                .font(.body)
+//            Text(resourceViewModel.resource.resources)
+//                .font(.title)
+//            Text(resourceViewModel.resource.article)
+//                .font(.body)
             Divider()
             Button {
                 fetchResource()
@@ -25,10 +26,15 @@ struct ContentView: View {
                 Text("Fetch Resource")
             }
 //            Button {
-//                fetchPost()
+//                fetchStock()
 //            } label: {
-//                Text("Fetch Post")
+//                Text("Fetch Stock")
 //            }
+            Button {
+                fetchPost()
+            } label: {
+                Text("Fetch Post")
+            }
         }
         .navigationTitle("Networking")
     }
@@ -44,11 +50,15 @@ struct ContentView: View {
     }
     
     func fetchResource() {
-        resourceViewModel.fetchHeroes(resourceWithArticle: "GDB1044")
+        resourceViewModel.fetchResource(resourceWithArticle: "GDB1044") { err in
+            if let err = err {
+                print(err)
+                return
+            }
             print("Successfully fetched resource: \(resourceViewModel.resources)")
         }
     }
-    
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
