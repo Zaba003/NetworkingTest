@@ -8,17 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		D43803182755FC79004C8656 /* Berg_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43803172755FC79004C8656 /* Berg_ClientApp.swift */; };
-		D438031A2755FC79004C8656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43803192755FC79004C8656 /* ContentView.swift */; };
 		D438031C2755FC7D004C8656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D438031B2755FC7D004C8656 /* Assets.xcassets */; };
 		D438031F2755FC7D004C8656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D438031E2755FC7D004C8656 /* Preview Assets.xcassets */; };
+		D438033F275620F1004C8656 /* ResourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438033E275620F1004C8656 /* ResourceViewModel.swift */; };
+		D438034127562F56004C8656 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438034027562F56004C8656 /* StockViewModel.swift */; };
+		D438035227571C29004C8656 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = D438035127571C29004C8656 /* Networking */; };
+		D438035827572321004C8656 /* PromiseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438035327572320004C8656 /* PromiseHandler.swift */; };
+		D438035927572321004C8656 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438035427572320004C8656 /* ContentViewModel.swift */; };
+		D438035A27572321004C8656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438035527572320004C8656 /* ContentView.swift */; };
+		D438035B27572321004C8656 /* Error+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438035627572321004C8656 /* Error+.swift */; };
+		D438035C27572321004C8656 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438035727572321004C8656 /* Post.swift */; };
+		D438035E275728E6004C8656 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438035D275728E6004C8656 /* API.swift */; };
+		D438036227573B51004C8656 /* Arrow in Frameworks */ = {isa = PBXBuildFile; productRef = D438036127573B51004C8656 /* Arrow */; };
+		D438036427573FD9004C8656 /* Extension + Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438036327573FD9004C8656 /* Extension + Resource.swift */; };
+		D4380366275757ED004C8656 /* Extension + Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4380365275757ED004C8656 /* Extension + Stock.swift */; };
+		D438036E27578436004C8656 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438036927578435004C8656 /* Stock.swift */; };
+		D438036F27578436004C8656 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438036A27578435004C8656 /* Brand.swift */; };
+		D438037027578436004C8656 /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438036B27578436004C8656 /* Warehouse.swift */; };
+		D438037127578436004C8656 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438036C27578436004C8656 /* Offer.swift */; };
+		D438037227578436004C8656 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438036D27578436004C8656 /* Resource.swift */; };
+		D438037427578D63004C8656 /* Extension + Brend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438037327578D63004C8656 /* Extension + Brend.swift */; };
+		D438037627578E20004C8656 /* Extension + Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438037527578E20004C8656 /* Extension + Warehouse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D43803142755FC79004C8656 /* Berg Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Berg Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43803172755FC79004C8656 /* Berg_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berg_ClientApp.swift; sourceTree = "<group>"; };
-		D43803192755FC79004C8656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D438031B2755FC7D004C8656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D438031E2755FC7D004C8656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D438033E275620F1004C8656 /* ResourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewModel.swift; sourceTree = "<group>"; };
+		D438034027562F56004C8656 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		D438035327572320004C8656 /* PromiseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseHandler.swift; sourceTree = "<group>"; };
+		D438035427572320004C8656 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D438035527572320004C8656 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D438035627572321004C8656 /* Error+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+.swift"; sourceTree = "<group>"; };
+		D438035727572321004C8656 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D438035D275728E6004C8656 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D438036327573FD9004C8656 /* Extension + Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Resource.swift"; sourceTree = "<group>"; };
+		D4380365275757ED004C8656 /* Extension + Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Stock.swift"; sourceTree = "<group>"; };
+		D438036927578435004C8656 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		D438036A27578435004C8656 /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		D438036B27578436004C8656 /* Warehouse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Warehouse.swift; sourceTree = "<group>"; };
+		D438036C27578436004C8656 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		D438036D27578436004C8656 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		D438037327578D63004C8656 /* Extension + Brend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Brend.swift"; sourceTree = "<group>"; };
+		D438037527578E20004C8656 /* Extension + Warehouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Warehouse.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D438036227573B51004C8656 /* Arrow in Frameworks */,
+				D438035227571C29004C8656 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +87,12 @@
 		D43803162755FC79004C8656 /* Berg Client */ = {
 			isa = PBXGroup;
 			children = (
+				D438033327560CF9004C8656 /* SupportingFiles */,
+				D438032A2755FDD4004C8656 /* Services */,
+				D43803292755FD6C004C8656 /* ViewModel */,
+				D43803282755FD4E004C8656 /* Model */,
+				D438035527572320004C8656 /* ContentView.swift */,
 				D43803172755FC79004C8656 /* Berg_ClientApp.swift */,
-				D43803192755FC79004C8656 /* ContentView.swift */,
 				D438031B2755FC7D004C8656 /* Assets.xcassets */,
 				D438031D2755FC7D004C8656 /* Preview Content */,
 			);
@@ -65,6 +105,50 @@
 				D438031E2755FC7D004C8656 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D43803282755FD4E004C8656 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D438036A27578435004C8656 /* Brand.swift */,
+				D438036C27578436004C8656 /* Offer.swift */,
+				D438036D27578436004C8656 /* Resource.swift */,
+				D438036927578435004C8656 /* Stock.swift */,
+				D438036B27578436004C8656 /* Warehouse.swift */,
+				D438035727572321004C8656 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D43803292755FD6C004C8656 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D438035427572320004C8656 /* ContentViewModel.swift */,
+				D438033E275620F1004C8656 /* ResourceViewModel.swift */,
+				D438034027562F56004C8656 /* StockViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D438032A2755FDD4004C8656 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D438035D275728E6004C8656 /* API.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D438033327560CF9004C8656 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D438035627572321004C8656 /* Error+.swift */,
+				D438035327572320004C8656 /* PromiseHandler.swift */,
+				D438036327573FD9004C8656 /* Extension + Resource.swift */,
+				D4380365275757ED004C8656 /* Extension + Stock.swift */,
+				D438037327578D63004C8656 /* Extension + Brend.swift */,
+				D438037527578E20004C8656 /* Extension + Warehouse.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,10 @@
 			dependencies = (
 			);
 			name = "Berg Client";
+			packageProductDependencies = (
+				D438035127571C29004C8656 /* Networking */,
+				D438036127573B51004C8656 /* Arrow */,
+			);
 			productName = "Berg Client";
 			productReference = D43803142755FC79004C8656 /* Berg Client.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,10 @@
 				Base,
 			);
 			mainGroup = D438030B2755FC79004C8656;
+			packageReferences = (
+				D438035027571C29004C8656 /* XCRemoteSwiftPackageReference "Networking" */,
+				D438036027573B51004C8656 /* XCRemoteSwiftPackageReference "Arrow" */,
+			);
 			productRefGroup = D43803152755FC79004C8656 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +229,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D438031A2755FC79004C8656 /* ContentView.swift in Sources */,
+				D438037427578D63004C8656 /* Extension + Brend.swift in Sources */,
+				D438034127562F56004C8656 /* StockViewModel.swift in Sources */,
+				D438037227578436004C8656 /* Resource.swift in Sources */,
+				D438036427573FD9004C8656 /* Extension + Resource.swift in Sources */,
+				D438036E27578436004C8656 /* Stock.swift in Sources */,
+				D438035C27572321004C8656 /* Post.swift in Sources */,
+				D438033F275620F1004C8656 /* ResourceViewModel.swift in Sources */,
+				D438035827572321004C8656 /* PromiseHandler.swift in Sources */,
+				D438035927572321004C8656 /* ContentViewModel.swift in Sources */,
+				D438037027578436004C8656 /* Warehouse.swift in Sources */,
+				D438035A27572321004C8656 /* ContentView.swift in Sources */,
+				D438037127578436004C8656 /* Offer.swift in Sources */,
+				D438036F27578436004C8656 /* Brand.swift in Sources */,
+				D438037627578E20004C8656 /* Extension + Warehouse.swift in Sources */,
+				D438035B27572321004C8656 /* Error+.swift in Sources */,
+				D438035E275728E6004C8656 /* API.swift in Sources */,
+				D4380366275757ED004C8656 /* Extension + Stock.swift in Sources */,
 				D43803182755FC79004C8656 /* Berg_ClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +449,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D438035027571C29004C8656 /* XCRemoteSwiftPackageReference "Networking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Networking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.5;
+			};
+		};
+		D438036027573B51004C8656 /* XCRemoteSwiftPackageReference "Arrow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Arrow";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D438035127571C29004C8656 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D438035027571C29004C8656 /* XCRemoteSwiftPackageReference "Networking" */;
+			productName = Networking;
+		};
+		D438036127573B51004C8656 /* Arrow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D438036027573B51004C8656 /* XCRemoteSwiftPackageReference "Arrow" */;
+			productName = Arrow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D438030C2755FC79004C8656 /* Project object */;
 }

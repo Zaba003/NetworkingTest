@@ -11,7 +11,9 @@ import SwiftUI
 struct Berg_ClientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }
